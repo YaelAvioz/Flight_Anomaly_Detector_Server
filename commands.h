@@ -1,9 +1,3 @@
-/*
- * commands.h
- *
- * Author: Yael Avioz,207237421
- */
-
 #ifndef COMMANDS_H_
 #define COMMANDS_H_
 
