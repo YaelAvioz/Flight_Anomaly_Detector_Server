@@ -1,11 +1,3 @@
-/*
-* minCircle.h
-*
-* Author: Yael Avioz, 207237421
-*
-* I fixed my original code based on the published soultion in the Moodle.
-*/
-
 #ifndef MINCIRCLE_H_
 #define MINCIRCLE_H_
 
