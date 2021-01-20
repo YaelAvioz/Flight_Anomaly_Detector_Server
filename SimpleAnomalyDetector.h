@@ -1,9 +1,3 @@
-/*
- * SimpleAnomalyDetector.h
- *
- * Author: Yael Avioz,207237421
- */
-
 #ifndef SIMPLEANOMALYDETECTOR_H_
 #define SIMPLEANOMALYDETECTOR_H_
 
