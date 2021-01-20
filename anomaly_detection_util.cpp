@@ -1,9 +1,3 @@
-/*
- * anomaly_detection_util.cpp
- *
- * Author: Yael Avioz,207237421
- */
-
 #include <math.h>
 #include "anomaly_detection_util.h"
 
