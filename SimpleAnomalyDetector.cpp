@@ -1,9 +1,3 @@
-/*
- * SimpleAnomalyDetector.cpp
- *
- * Author: Yael Avioz,207237421
- */
-
 #include "SimpleAnomalyDetector.h"
 #include "AnomalyDetector.h"
 #include <iostream>
