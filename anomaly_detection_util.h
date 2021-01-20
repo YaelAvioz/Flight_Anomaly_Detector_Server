@@ -1,9 +1,3 @@
-/*
- * anomaly_detection_util.h
- *
- * Author: Yael Avioz,207237421
- */
-
 #ifndef ANOMALYDETECTORUTIL_H_
 #define ANOMALYDETECTORUTIL_H_
 
