@@ -1,9 +1,3 @@
-/*
- * CLI.h
- *
- * Author: Yael Avioz, 207237421
- */
-
 #ifndef CLI_H_
 #define CLI_H_
 
