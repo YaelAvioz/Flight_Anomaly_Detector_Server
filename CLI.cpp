@@ -1,9 +1,3 @@
-/*
- * CLI.cpp
- *
- * Author: Yael Avioz,207237421
- */
-
 #include "CLI.h"
 #include "commands.h"
 #include <vector>
