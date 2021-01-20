@@ -1,9 +1,3 @@
-/*
- * Server.h
- *
- * Author: Yael Avioz,207237421
- */
-
 #ifndef SERVER_H_
 #define SERVER_H_
 
