@@ -1,9 +1,3 @@
-/*
- * timeseries.cpp
- *
- * Author: Yael Avioz,207237421
- */
-
 #include "timeseries.h"
 #include <fstream>
 #include <sstream>
