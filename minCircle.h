@@ -1,9 +1,3 @@
-/*
-* minCircle.h
-*
-* Author: Yael Avioz, 207237421
-*/
-
 #ifndef MINCIRCLE_H_
 #define MINCIRCLE_H_
 
