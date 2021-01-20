@@ -1,9 +1,3 @@
-/*
- * Server.cpp
- *
- * Author: Yael Avioz,207237421
- */
-
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <unistd.h>
