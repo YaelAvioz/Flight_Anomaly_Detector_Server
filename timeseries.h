@@ -1,9 +1,3 @@
-/*
- * timeseries.h
- *
- * Author: Yael Avioz,207237421
- */
-
 #ifndef TIMESERIES_H_
 #define TIMESERIES_H_
 
