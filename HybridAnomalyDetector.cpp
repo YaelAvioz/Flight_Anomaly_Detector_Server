@@ -1,9 +1,3 @@
-/*
- * HybridAnomalyDetector.cpp
- *
- * Author: Yael Avioz,207237421
- */
-
 #include "HybridAnomalyDetector.h"
 #include "anomaly_detection_util.h"
 
