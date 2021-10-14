@@ -1,3 +1,9 @@
+/*
+ * anomaly_detection_util.cpp
+ *
+ * Author: Yael Avioz,207237421
+ */
+
 #include <math.h>
 #include "anomaly_detection_util.h"
 
@@ -25,11 +31,12 @@ float var(float* x, int size){
 // returns the covariance of X and Y
 float cov(float* x, float* y, int size){
 	float sum = 0;
-	for(int i = 0; i < size; i++)
-	{
-		sum += ((x[i]-avg(x, size))*(y[i]-avg(y, size)));
+	for (int i = 0; i < size; i++) {
+		sum += x[i] * y[i];
 	}
-	return sum/size;
+	sum = sum /size;
+
+	return sum - avg(x, size) * avg(y, size);
 }
 
 // returns the Pearson correlation coefficient of X and Y
@@ -53,7 +60,8 @@ Line linear_reg(Point** points, int size){
 
 // returns the deviation between point p and the line equation of the points
 float dev(Point p,Point** points, int size){
-	float distance = linear_reg(points, size).f(p.x) - p.y;
+	Line line = linear_reg(points, size);
+	float distance = p.y - line.f(p.x);
 	if(distance < 0)
 	{
 		distance *= (-1);
@@ -63,7 +71,7 @@ float dev(Point p,Point** points, int size){
 
 // returns the deviation between point p and the line
 float dev(Point p,Line l){
-	float distance = l.f(p.x)-p.y;
+	float distance = p.y-l.f(p.x);
 	 if(distance < 0)
 	{
 		distance *= (-1);
